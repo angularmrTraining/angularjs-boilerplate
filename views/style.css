@@ -1,0 +1,117 @@
+body {
+    padding-top: 20px;
+    font-family: Helvetica;
+}
+
+.footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    border-top: 1px solid #eee;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    padding: 14px 24px;
+    font-size: 21px;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #333;
+}
+
+.blog-masthead {
+    margin-bottom: 3rem;
+    background-color: #428bca;
+    box-shadow: inset 0 -.1rem .25rem rgba(0, 0, 0, .1);
+}
+
+
+/*
+ * Blog name and description
+ */
+
+.blog-header {
+    padding-bottom: 1.25rem;
+    margin-bottom: 2rem;
+    border-bottom: .05rem solid #eee;
+}
+
+.blog-title {
+    margin-bottom: 0;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.blog-description {
+    font-size: 1.1rem;
+    color: #999;
+}
+
+@media (min-width: 40em) {
+    .blog-title {
+        font-size: 3.5rem;
+    }
+}
+
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+    margin-bottom: 4rem;
+}
+
+.blog-post-title {
+    margin-bottom: .25rem;
+    font-size: 2.5rem;
+}
+
+.blog-post-meta {
+    margin-bottom: 1.25rem;
+    color: #999;
+}
+
+.navbar {
+    background-image: linear-gradient(to bottom, #f7f7f7 0%, #eee 100%);
+    border: 1px solid #e5e5e5;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .navbar-nav .nav-item {
+        -ms-flex: 1 0 auto;
+        flex: 1 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    /* Remove the padding we set earlier */
+    .masthead,
+    .marketing,
+    .footer {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}

@@ -6,5 +6,8 @@
   "license": "MIT",
   "devDependencies": {
     "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "angularjs": "0.0.1"
   }
 }

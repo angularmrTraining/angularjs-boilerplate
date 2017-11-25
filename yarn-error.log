@@ -1,0 +1,40 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS:/Users/macbookproretina13/.yarn/bin:/Users/macbookproretina13/.npm-packages/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Users/macbookproretina13/bin
+
+Yarn version: 
+  0.24.6
+
+Node version: 
+  9.2.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "blog-ui",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Lazhari <lazhari.mohammed@outlook.com>",
+    "license": "MIT",
+    "devDependencies": {
+      "webpack": "^3.8.1"
+    },
+    "dependencies": {
+      "angularjs": "0.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443
+      at errnoException (dns.js:55:10)
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:97:26)

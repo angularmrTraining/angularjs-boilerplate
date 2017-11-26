@@ -1,6 +1,6 @@
 const path = require('path');
 
-const dist = path.join(__dirname, 'dist');
+const dist = path.join(__dirname, '/views/dist');
 const context = path.join(__dirname, 'src');
 
 //console.log(dist);
